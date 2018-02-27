@@ -53,3 +53,9 @@ app.post('/adduser',function(req,res){
 app.listen(process.env.PORT||8080);
 console.log('Server running');
 //Сортування обєктів по кліку mas.sort(function(a,b)){if (a.first>b.first) return 1}
+/*1)node останньої версії  
+2)npm install -g heroku-cli 
+3)налаштувати gitbash git config --global user.email "..."   i user.name "..."
+4)heroku login
+5)$ heroku git:remote -a nazarbaran2
+6)$ git push heroku master*/
